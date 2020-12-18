@@ -1,5 +1,11 @@
 @echo off
 
+:checkPrivileges
+  NET FILE 1>NUL 2>NUL
+  if '%errorlevel%' == '0' ( goto gotPrivileges ) else ( goto getPrivileges )
+
+:gotPrivileges
+
 if exist c:\twa.conf goto 3
 goto 2
 
@@ -21,14 +27,18 @@ set /p twainstall=<c:\twa.conf
 echo %twainstall%
 if not exist "%twainstall%\data\language.txt" goto 4
 if not exist "%twainstall%\data\Backup" mkdir "%twainstall%\data\Backup"
-if exist "%twainstall%\data\audio_cn.pack" move "%twainstall%\data\audio_cn.pack" "%twainstall%\data\Backup\"
-if exist "%twainstall%\data\local_cn.pack" move "%twainstall%\data\local_cn.pack" "%twainstall%\data\Backup\"
+if exist "%twainstall%\data\audio_cn.pack" move /Y "%twainstall%\data\audio_cn.pack" "%twainstall%\data\Backup\"
+if exist "%twainstall%\data\local_cn.pack" move /Y "%twainstall%\data\local_cn.pack" "%twainstall%\data\Backup\"
 echo EN > "%twainstall%\data\language.txt"
 goto 5
 
 :4
 Echo Files not found, wrong directory selected, resetting config
 del c:\twa.conf
+goto 6
+
+:getPrivileges
+echo Right click and run as Admin
 goto 6
 
 :5
