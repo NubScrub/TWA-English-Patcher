@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://www.youtube.com/channel/UC_5hX8DRbUqiJwIVAtb7qCA"><img src="https://i.imgur.com/f44dmOw.png" alt="Markdownify" width="800"></a>
+  <a href="https://www.youtube.com/channel/UC_5hX8DRbUqiJwIVAtb7qCA"><img src="https://i.imgur.com/0DEa3tR.png" alt="Markdownify" width="800"></a>
   <br>
   Total War Arena: English Patcher
   <br>
@@ -17,6 +17,7 @@
   <a href="#key-features">Key Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#download">Download</a> •
+  <a href="#notes">Notes</a> •
   <a href="#support">Support</a> •
   <a href="#license">License</a>
 </p>
@@ -47,9 +48,18 @@
 Go to [download](https://github.com/NubScrub/TWA-English-Patcher/releases/latest) for the latest version of TWA English Patcher.
 
 
+## Notes
+
+* Made  with <3 for the international players of TWA Arena and the members of the SUNTZU community. 
+
 ## Support
 
-* If you need help join the SUNTZU Discord: https://discord.gg/8nyrtZU and ping @n00b
+* If you need help join the SUNTZU Discord: <br>
+<a href="https://discord.gg/8nyrtZUt">
+	<img src="https://i.imgur.com/ty1ZtHP.png" width="200">  </a>
+	<br> 
+	and ping @n00b
+	<br>
 <a href="https://discord.gg/8nyrtZUt">
 	<img src="https://i.imgur.com/sMTVQNa.png" width="200">
 </a>
