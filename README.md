@@ -39,6 +39,7 @@
 * Go to the [download](https://github.com/NubScrub/TWA-English-Patcher/releases/latest) section and download the latest release
 * Save  the .bat file in the location you desire
 * Run the file as Admin
+* Select your Total War: Arena install location
 * Once the game updates again just run the file again and it will patch back into English
 
 
