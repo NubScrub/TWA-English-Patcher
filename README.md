@@ -25,12 +25,12 @@
 
 * Patch Chinese language files to change the game into English
   - Moves the Chinese language files into a backup folder.
-* Patches the Language file to ensure English with first time use.
+* Patches the Language file to ensure English with first-time use.
   - Edits the Language.txt file.
 * Saves your game install location
   - Saves a config of your game install location so you don't have to select the folder next time the game patches.
 * Almost foolproof 
-  - Added a few features to stop incorrect directory being selected and not being run with the correct privilidges.
+  - Added a few features to stop incorrect directory being selected and not being run with the correct privileges.
 
 ## How To Use
 
@@ -38,7 +38,7 @@
 * Go to the [download](https://github.com/NubScrub/TWA-English-Patcher/releases/latest) section and download the latest release
 * Save  the .bat file in the location you desire
 * Run the file as Admin
-* Once the game updates agiain just run the file again and it will patch back into English
+* Once the game updates again just run the file again and it will patch back into English
 
 
 
