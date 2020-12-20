@@ -51,7 +51,7 @@ Go to [download](https://github.com/NubScrub/TWA-English-Patcher/releases/latest
 
 ## Notes
 
-* Made  with <3 for the international players of TWA Arena and the members of the SUNTZU community. 
+* Made  with <3 for the international players of Total War: Arena and the members of the SUNTZU community. 
 
 ## Support
 
